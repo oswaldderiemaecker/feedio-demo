@@ -1,6 +1,3 @@
-feed-io-demo
-============
+# feed-io-demo
 
 FeedIoBundle's demo application
-
-
