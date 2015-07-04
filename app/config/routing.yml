@@ -1,3 +1,7 @@
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+
+feedio:
+    resource: @DebrilFeedIoBundle/Resources/config/routing.yml
+
