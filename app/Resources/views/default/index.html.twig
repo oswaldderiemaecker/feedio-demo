@@ -1,5 +1,9 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    Homepage.
+    <h1>This is the demo application of feed-io.</h1>
+    <p>view the mock feed in
+        <a href="{{ path('feedio_rss', {'id': '1'}) }}">RSS</a>
+        or <a href="{{ path('feedio_atom', {'id': '1'}) }}">Atom</a> format
+    </p>
 {% endblock %}
